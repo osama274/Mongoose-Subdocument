@@ -1,0 +1,2 @@
+mongoimport --db test --collection employees --type json --file employees.json --jsonArray
+mongoimport --db test --collection nestedusers --type json --file nestedusers.json --jsonArray
